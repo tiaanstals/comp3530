@@ -1,0 +1,141 @@
+Enter the total number of vehicles (int): Enter vehicles arrival rate (int): 
+Enter minimum interval between two consecutive vehicles (int): 
+Enter green time for forward-moving vehicles on trunk road (int): Enter green time for vehicles on minor road (int): Enter green time for right-turning vehicles on trunk road (int): 37:vehicle:0:n2s:arrive
+37:vehicle:0:s2e:arrive
+37:lights:(n2s, s2n):green
+37:vehicle:0:e2w:arrive
+37:vehicle:0:w2e:arrive
+37:vehicle:0:n2w:arrive
+37:vehicle:0:s2n:arrive
+37:vehicle:0:n2s:proceeding
+37:vehicle:0:s2n:proceeding
+38:lights:(n2s, s2n):red
+38:vehicle:1:n2s:arrive
+38:vehicle:1:w2e:arrive
+39:vehicle:2:n2s:arrive
+40:lights:(e2w, w2e):green
+40:vehicle:0:e2w:proceeding
+40:vehicle:0:w2e:proceeding
+40:vehicle:3:n2s:arrive
+40:vehicle:1:n2w:arrive
+40:vehicle:1:s2e:arrive
+40:vehicle:2:w2e:arrive
+40:vehicle:3:w2e:arrive
+40:vehicle:2:n2w:arrive
+40:vehicle:3:n2w:arrive
+41:lights:(e2w, w2e):red
+41:vehicle:1:w2e:proceeding
+41:vehicle:4:n2s:arrive
+41:vehicle:1:s2n:arrive
+41:vehicle:4:n2w:arrive
+41:vehicle:1:e2w:arrive
+41:vehicle:2:s2e:arrive
+41:vehicle:5:n2w:arrive
+42:vehicle:5:n2s:arrive
+42:vehicle:3:s2e:arrive
+42:vehicle:2:e2w:arrive
+42:vehicle:3:e2w:arrive
+42:vehicle:2:s2n:arrive
+43:lights:(n2w, s2e):green
+43:vehicle:0:n2w:proceeding
+43:vehicle:0:s2e:proceeding
+43:vehicle:4:s2e:arrive
+43:vehicle:6:n2s:arrive
+44:lights:(n2w, s2e):red
+44:vehicle:1:s2e:proceeding
+44:vehicle:1:n2w:proceeding
+44:vehicle:7:n2s:arrive
+44:vehicle:4:w2e:arrive
+44:vehicle:3:s2n:arrive
+44:vehicle:4:e2w:arrive
+45:vehicle:8:n2s:arrive
+46:lights:(n2s, s2n):green
+46:vehicle:1:s2n:proceeding
+46:vehicle:9:n2s:arrive
+46:vehicle:5:e2w:arrive
+46:vehicle:6:e2w:arrive
+46:vehicle:5:s2e:arrive
+47:vehicle:2:s2n:proceeding
+47:lights:(n2s, s2n):red
+47:vehicle:1:n2s:proceeding
+47:vehicle:6:n2w:arrive
+47:vehicle:10:n2s:arrive
+48:vehicle:11:n2s:arrive
+48:vehicle:5:w2e:arrive
+48:vehicle:7:n2w:arrive
+48:vehicle:8:n2w:arrive
+48:vehicle:6:s2e:arrive
+48:vehicle:4:s2n:arrive
+48:vehicle:6:w2e:arrive
+48:vehicle:7:s2e:arrive
+48:vehicle:8:s2e:arrive
+48:vehicle:7:e2w:arrive
+49:lights:(e2w, w2e):green
+49:vehicle:2:w2e:proceeding
+49:vehicle:1:e2w:proceeding
+50:vehicle:2:e2w:proceeding
+50:vehicle:3:w2e:proceeding
+50:lights:(e2w, w2e):red
+52:lights:(n2w, s2e):green
+52:vehicle:2:n2w:proceeding
+52:vehicle:2:s2e:proceeding
+53:vehicle:3:s2e:proceeding
+53:lights:(n2w, s2e):red
+53:vehicle:3:n2w:proceeding
+55:lights:(n2s, s2n):green
+55:vehicle:2:n2s:proceeding
+55:vehicle:3:s2n:proceeding
+56:lights:(n2s, s2n):red
+56:vehicle:3:n2s:proceeding
+56:vehicle:4:s2n:proceeding
+58:lights:(e2w, w2e):green
+58:vehicle:3:e2w:proceeding
+58:vehicle:4:w2e:proceeding
+59:lights:(e2w, w2e):red
+59:vehicle:4:e2w:proceeding
+59:vehicle:5:w2e:proceeding
+01:lights:(n2w, s2e):green
+01:vehicle:4:n2w:proceeding
+01:vehicle:4:s2e:proceeding
+02:vehicle:5:n2w:proceeding
+02:vehicle:5:s2e:proceeding
+02:lights:(n2w, s2e):red
+04:lights:(n2s, s2n):green
+04:vehicle:4:n2s:proceeding
+05:lights:(n2s, s2n):red
+05:vehicle:5:n2s:proceeding
+07:lights:(e2w, w2e):green
+07:vehicle:5:e2w:proceeding
+07:vehicle:6:w2e:proceeding
+08:vehicle:6:e2w:proceeding
+08:lights:(e2w, w2e):red
+10:lights:(n2w, s2e):green
+10:vehicle:6:s2e:proceeding
+10:vehicle:6:n2w:proceeding
+11:vehicle:7:s2e:proceeding
+11:vehicle:7:n2w:proceeding
+11:lights:(n2w, s2e):red
+13:lights:(n2s, s2n):green
+13:vehicle:6:n2s:proceeding
+14:vehicle:7:n2s:proceeding
+14:lights:(n2s, s2n):red
+16:lights:(e2w, w2e):green
+16:vehicle:7:e2w:proceeding
+17:lights:(e2w, w2e):red
+19:lights:(n2w, s2e):green
+19:vehicle:8:n2w:proceeding
+19:vehicle:8:s2e:proceeding
+20:lights:(n2w, s2e):red
+22:lights:(n2s, s2n):green
+22:vehicle:8:n2s:proceeding
+23:vehicle:9:n2s:proceeding
+23:lights:(n2s, s2n):red
+25:lights:(e2w, w2e):green
+26:lights:(e2w, w2e):red
+28:lights:(n2w, s2e):green
+29:lights:(n2w, s2e):red
+31:lights:(n2s, s2n):green
+31:vehicle:10:n2s:proceeding
+32:lights:(n2s, s2n):red
+32:vehicle:11:n2s:proceeding
+Main thread: There are no more vehicles to serve. The simulation will end now.

@@ -1,0 +1,36 @@
+Enter the total number of vehicles (int): Enter vehicles arrival rate (int): 
+Enter minimum interval between two consecutive vehicles (int): 
+Enter green time for forward-moving vehicles on trunk road (int): Enter green time for vehicles on minor road (int): Enter green time for right-turning vehicles on trunk road (int): 06:lights:(n2s, s2n):green
+07:vehicle:0:n2s:arrive
+08:vehicle:0:n2s:proceeding
+08:vehicle:0:e2w:arrive
+08:vehicle:0:s2n:arrive
+08:vehicle:0:n2w:arrive
+09:lights:(n2s, s2n):red
+09:vehicle:0:s2e:arrive
+09:vehicle:0:w2e:arrive
+10:vehicle:1:n2s:arrive
+11:lights:(e2w, w2e):green
+11:vehicle:0:w2e:proceeding
+11:vehicle:0:e2w:proceeding
+11:vehicle:1:w2e:arrive
+12:vehicle:2:n2s:arrive
+13:vehicle:1:w2e:proceeding
+13:vehicle:3:n2s:arrive
+14:lights:(e2w, w2e):red
+16:lights:(n2w, s2e):green
+16:vehicle:0:n2w:proceeding
+16:vehicle:0:s2e:proceeding
+19:lights:(n2w, s2e):red
+21:lights:(n2s, s2n):green
+21:vehicle:1:n2s:proceeding
+21:vehicle:0:s2n:proceeding
+23:vehicle:2:n2s:proceeding
+24:lights:(n2s, s2n):red
+26:lights:(e2w, w2e):green
+29:lights:(e2w, w2e):red
+31:lights:(n2w, s2e):green
+34:lights:(n2w, s2e):red
+36:lights:(n2s, s2n):green
+36:vehicle:3:n2s:proceeding
+Main thread: There are no more vehicles to serve. The simulation will end now.
